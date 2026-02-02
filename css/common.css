@@ -103,8 +103,9 @@ img{
   color: #2e2f42;
 }
 /*   end of task - 3  */
-
+/*   task - 4  */
 .login-form {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
 }
+/*   end of task - 4  */
