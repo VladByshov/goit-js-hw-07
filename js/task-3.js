@@ -1,5 +1,5 @@
 const input = document.querySelector('#name-input');
-input.onkeyup = (event) => {
+input.oninput = (event) => {
     const value = event.target.value.trim();
     printName(!value ? 'Anonymous': value);
 }
