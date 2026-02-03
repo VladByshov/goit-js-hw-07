@@ -15,6 +15,7 @@ input:active{
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  padding-left: 16px;
 }
 
 input:hover{
@@ -33,6 +34,11 @@ body {
 }
 
 button {
+  cursor: pointer;
+  color: #fff;
+  background: #4e75ff;
+  border: none;
+  outline: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +49,9 @@ button {
   padding-inline: 16px;
   width: 120px;
   height: 40px;
-  background: #4e75ff;
+}
+button:hover{
+  background: #6c8cff;
 }
 
 /*   task - 1  */
@@ -107,5 +115,24 @@ img{
 .login-form {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
+.login-form label{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form button{
+  margin-top: 8px;
+}
+
 /*   end of task - 4  */
+/*    task - 5  */
+.widget{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:16px;
+}
+/*   end of task - 5  */
